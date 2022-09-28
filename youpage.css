@@ -1,0 +1,126 @@
+
+/* ----------DEFAULT FORMATS---------- */
+
+body { /*Defines the default format across the body of the page. */
+    color:rgb(239, 235, 221);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-image:url(/images/memoryghost.jpg);
+    background-size:cover;
+}
+
+hr { /*Defines the default format of horizontal lines. */
+    height: 10px;
+    color: black;
+    background-color: black;
+    border:none;
+}
+
+h1,h2,h3,p,ul,ol { /*Defines universal default format for all text areas.*/
+    outline:4px solid white;
+    background-color:rgba(0,0,0, .8);
+    padding:10px;
+    margin:20px 40px
+}
+
+img { /*Defines the default format for all images*/
+    border: 6px solid black;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+/* ----------CLASSES---------- */
+
+.center { /*this class is used to center elemnets. */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.nameheader{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.h2center {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width: fit-content;
+}
+
+.profileimage{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.sidebar { /*this is dedicated to the menu sidebar*/
+    float: left;
+    text-align: left;
+    font-size: x-large;
+    padding: 10px, 0px;
+    display:inline-block;
+}
+#sidebar li {
+    list-style-type: none;
+}
+
+.aboutmemainpage {
+    float: left;
+    text-align: left;
+    font-size: large;
+    padding: 10 px, 0px;
+    display: inline-block;
+}
+
+.albumshowcase { /*this is dedicated to the "Harbored Vision" showcase. Much of it just removes default CSS*/
+    float:right;
+    display:block;
+    text-align:center;
+    width:20%;
+    background-color: rgba(0,0,0, .8);
+    outline:4px solid white;
+    margin-right: 20px;
+}
+#album {
+    outline:none;
+    background:none;
+}
+
+.personal { /*this class is used to define the space taken by the "personal" seciton. */
+    display:inline-block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.personalfloat{
+    float:left;
+    width:50%;    
+}
+
+.gamedisplay {
+    float:left;
+    text-align: center;
+    font-size: x-large;
+    width:42%;
+    background-color: rgba(0,0,0, .8);
+    outline:4px solid white;
+    padding:10px;
+    margin:20px 40px
+}
+
+.gameimgdisplay{
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+#gamedisplay{
+    width: fit-content;
+}
